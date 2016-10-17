@@ -1,0 +1,42 @@
+/*
+Error: Properties are only allowed within rules, directives, mixin includes, or other properties.
+        on line 4 of D:\WP\clean_html\css\sass\main.sass
+
+1: @import "bourbon/bourbon"
+2: 
+3: body
+4: font-family: "Raleway", sans-serif
+5: font-weight: normal
+6: font-size: 14px
+7: min-width: 320px
+8: position: relative
+9: line-height: 1.42857
+
+Backtrace:
+D:\WP\clean_html\css\sass\main.sass:4
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/check_nesting.rb:13:in `visit'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/check_nesting.rb:57:in `visit_root'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:24:in `visit'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:35:in `css_tree'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/Programs/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+D:/Programs/Koala/bin/sass:18:in `load'
+D:/Programs/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Properties are only allowed within rules, directives, mixin includes, or other properties.\A         on line 4 of D:\WP\clean_html\css\sass\main.sass\A \A 1: @import \"bourbon/bourbon\"\A 2: \A 3: body\A 4: font-family: \"Raleway\", sans-serif\A 5: font-weight: normal\A 6: font-size: 14px\A 7: min-width: 320px\A 8: position: relative\A 9: line-height: 1.42857"; }
